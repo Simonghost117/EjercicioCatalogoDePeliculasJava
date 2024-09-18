@@ -33,4 +33,11 @@ public class Pelicula {
     public int hashCode() {
         return Objects.hashCode(nombre);
     }
+
+    @Override
+    public String toString() {
+        return "Pelicula{" +
+                "nombre='" + nombre + '\'' +
+                '}';
+    }
 }
